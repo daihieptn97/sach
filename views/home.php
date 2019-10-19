@@ -28,6 +28,7 @@
 				</tr>
 			</thead>
 			<tbody>
+            
 				<?php while( $r = $dataHome->fetch_assoc() ): ?>
 					<tr>
 						<td><?= $r['id'] ?></td>
