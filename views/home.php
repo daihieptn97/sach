@@ -29,20 +29,7 @@
 			</thead>
 			<tbody>
             
-				<?php while( $r = $dataHome->fetch_assoc() ): ?>
-					<tr>
-						<td><?= $r['id'] ?></td>
-						<td><?= $r['name'] ?></td>
-						<td><?= $r['giasach'] ?></td>
-						<td><?= $r['nxb'] ?></td>
-						
-						<td><?= date_format(new Datetime($r['time_create']), 'd-m-Y'); ?> </td>
-						<td>
-							<a href="?page=xoa&id=<?= $r['id'] ?>"  onclick="return confirm('ban co chac chan muon xoa khong ?')" >Xoa</a> |
-							<a href="?page=sua&id=<?= $r['id'] ?>">Sua</a> 
-						</td>
-					</tr>
-				<?php endwhile; ?>
+			
 			</tbody>
 		</table>
 	</div>
