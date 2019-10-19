@@ -21,6 +21,7 @@
 					<th>Tên sách</th>
 					<th>
 						<a href="?page=index&sort=<?php if($_GET['sort'] == "desc") echo "asc"; else echo "desc" ?>">Giá sách</a>
+                        
 					</th>
 					<th>Nhà xuất bản</th>
 					<th>Thời gian</th>
