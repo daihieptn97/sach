@@ -12,7 +12,7 @@
 			<h4>Danh sách sách</h4>
 		</div>
 		<a href="?page=them" >
-			Thêm sách
+			Thêm sách hot fix
 		</a>
 		<table  width="100%">
 			<thead>
@@ -28,7 +28,7 @@
 				</tr>
 			</thead>
 			<tbody>
-            
+
 				<?php while( $r = $dataHome->fetch_assoc() ): ?>
 					<tr>
 						<td><?= $r['id'] ?></td>
